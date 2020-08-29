@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Popins:100,200,300,400,500,600,700,800,900&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    
+    
+}
+
+body
+{
+    background-color: rgb(23, 41, 94);
+    z-index: -2;
+}
+
+header
+{
+    width: 900px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 178, 24);
+    position: center;
+    margin-left: 10%;
+    border: 2px solid yellow;
+  
+} 
+
+header .container10
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    border-bottom: 2px solid black;
+    padding: 2%;
+    margin-bottom: -4%;
+   
+}
+
+.about
+{
+    width: 35%;
+    padding-left: 2%;  
+          
+}
+.text
+{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.about5
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid green;
+    background: url(photo.jpg);
+    background-size: cover;
+    margin-left: 10%;
+    position: center;
+    margin-right: -20%;
+    
+}
+
+.about10
+{
+    display: float;
+    width: 60%;  
+    right: 0;     
+    text-align: end;  
+    padding-left: 20%;                                                                                                                                                                                            
+    
+}
+
+.container20
+{
+    display: grid;
+    width: 900px;
+    height: 150vh;
+    grid-template-columns: 50% 35%;
+    column-gap: 20px;
+    column-gap: 90px;
+    background-color: rgb(254, 254, 255);
+    padding: 10px;
+    margin-left: 10%;
+    border: 2px solid yellow;
+    border-top: none;
+  
+} 
+
+.container20 >div
+{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.container20 .item1, .item3, .item5
+{
+    margin-left: 10%;
+    margin-bottom: -20%;
+    
+}
+
+.item2 a
+{
+    width: 30px;
+    height: 15px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.item2 .filled
+{
+    background-color: rgb(22, 31, 109);
+}
+.item2 .flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.item2 h5
+{
+    font-weight: 500;
+    font-size: 10;
+}
+.container20 .item5
+{
+    margin-top: 20%;
+}
+.container20 .item7, .item9
+{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container20 .item9
+{
+    margin-top: -15%;
+}
+.item1 h2, h4
+{
+    padding-bottom: 10px;
+}
+
+.item1 h2
+{
+    font-size: 20px;
+}
+
+.item1  span,.item  span, .item5 span , .item7 span, .item9 span
+{
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(33, 116, 194);
+}
+
+.item1 .place,.item6  .place, .item5 .place, .item7 .place, .item9 .place
+{
+margin-left: 50%;
+font-size: 12px;
+
+}
+
+.item1 .task, .item3 .task
+{
+    padding-top: 5px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 5px;
+    color: orange;
+    font-size: 12px;
+}
+
+
+.item1, .item3 ul
+{
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+.item3 h4
+{
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.item3 h5
+{
+    padding-top: 10px;
+    font-style: italic;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+.item3 h6
+{
+    font-style: italic;
+    padding-bottom: 5px;
+    font-weight: 300;
+    font-size: 14px;
+}
+ .personal_project
+ {
+     font-size: 16px;
+     padding-top: 25px;
+     padding-bottom: 5px;
+ }
+
+ .item4 span
+ {
+     font-size: 14px;
+     font-weight: 500;
+     font-style: italic;
+ }
+
+ .item5 h3, .item7 h3, .item9 h3
+{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.item5 h4, .item7 h4, .item9 h4
+{
+    font-weight: 400;
+}
+
+.item5 h2, .item7 h2, .item9 h2
+{
+    font-size: 18px;
+}
+
+.item6  span
+{
+    font-size: 14px;
+    font-style: italic;
+}
+.item6 .lang2
+{
+  margin-left: 45%;  
+}
+.item6 .lang3
+{
+  margin-left: 40%;  
+}
+.item6 .left
+{
+font-size: 8px;
+font-style: italic;   
+}
+
+.item6 .right
+{
+font-size: 8px;
+font-style: italic; 
+margin-left: 25%;  
+}
+
+.item8 h2
+{
+    font-size: 18px;
+}
+
+p
+{
+    font-size: 10px;
+}
+.box
+{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item3
+{
+    margin-top: -15%;
+}
+
+.container20 .item9
+{
+    margin-top: -2%;
+}
