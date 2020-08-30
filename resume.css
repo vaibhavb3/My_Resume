@@ -13,7 +13,7 @@
 
 body
 {
-    background-color: rgb(23, 41, 94);
+    background-color: rgb(151, 172, 233);
     z-index: -2;
 }
 
@@ -82,7 +82,7 @@ header .container10
 {
     display: grid;
     width: 900px;
-    height: 150vh;
+    height: 900px;
     grid-template-columns: 50% 35%;
     column-gap: 20px;
     column-gap: 90px;
@@ -278,6 +278,7 @@ p
     border: 1px solid grey;
     padding: 10px;
     border-radius: 5px;
+    margin-top: -10px;
 }
 
 .item3
@@ -288,4 +289,9 @@ p
 .container20 .item9
 {
     margin-top: -2%;
+}
+
+.item10
+{
+    margin-top: -30px;
 }
